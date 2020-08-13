@@ -1,8 +1,12 @@
 /*header*/
+
 .top{
   position: relative;
   background-image: url('image/img4big.jpg');
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 h1{
   color: #ffcc66;
@@ -36,7 +40,8 @@ color: #666666;
 }
 
 .title{
-  padding: 25% 50% 25% 5%;
+  width: 45%;
+  margin-left: 5%;
   font-size: 18px;
 }
 .p-top{
@@ -91,6 +96,9 @@ margin-top: 55px;
 .card-left button{
   margin: 5% 0 5% 0;
 }
+.card-img-top{
+  max-height: 100vh;
+}
 /*end discount*/
 /*hiking the mountains*/
 .hiking-mountains{
@@ -138,15 +146,19 @@ margin-top: 55px;
 .logofive{
   margin-bottom: 5%;
 }
-.subscribe img{
-  width: 100%;
-  position: relative;
-  z-index: -1;
+/*subscribe*/
+.subscribe{
+  background-image: url('image/backgroundsix-bell.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
+/*end subscribe*/
+/*six text*/
 .six-text{
   text-align: center;
-position: absolute;
-padding: 15% 15% 30% 15%;
+  padding: 0 15%;
 }
 .six-title{
   color: white;
@@ -160,25 +172,47 @@ input-group mb-3{
   background-color: #83786f;
   font-weight: bold;
 }
+/*end part six*/
 .footer{
   background-image: url('image/footer-lanczos3.jpg');
   background-color:  #83786f;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
-/*.footer img{
-  position: relative;
-  z-index: -1;
-  width: 100%;
-}*/
-
+.social-media-logo{
+  width: 10%;
+  margin: 2%;
+}
 .card-footer-body{
-  background-color: #83786f;
+
   color: white;
 }
 #footer-card-group{
-padding: 10% 5% 10% 5%;
+padding: 20% 5% 10% 5%;
 }
 .card-footer{
   border: none;
   padding: 0;
+}
+/*media*/
+@media only screen and (max-width: 560px) {
+  .top{
+    justify-content: center;
+  }
+  .title{
+    width: auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .part-five{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .subscribe{
+    height: 50vh;
+  }
 }

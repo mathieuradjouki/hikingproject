@@ -74,9 +74,12 @@ include('header.php');
       <!--<img src="image/fond1.jpg" alt="fond">-->
   </div>
 <!--end hiking the mountains-->
+<!--explore-->
   <div class="explore">
     <img src="image/img11" alt="image11">
   </div>
+<!--end explore-->
+<!--part-five-->
   <div class="part-five">
     <div class="card-group">
       <div class="card five" >
@@ -104,6 +107,7 @@ include('header.php');
       <p class="five-subtitle">Lorem Ipsum</p>
     </div>
   </div>
+<!--end part-five-->
   <div class="subscribe">
     <div class="six-text">
       <h2 class="six-title">Title Here</h2>
@@ -115,7 +119,7 @@ include('header.php');
           </div>
       </div>
     </div>
-    <img src="image/backgroundsix-bell.jpg" alt="background" class="img-fluid">
+    <!--<img src="image/backgroundsix-bell.jpg" alt="background" class="img-fluid">-->
   </div>
 <?php
 include('footer.php');

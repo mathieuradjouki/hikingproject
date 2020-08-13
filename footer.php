@@ -4,6 +4,10 @@
       <div class="card-body card-footer-body">
         <h5 class="card-title">Title Here</h5>
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="https://fr-fr.facebook.com/" target="blank"><img src="image/facebooklogo.png" alt="facebook" class="social-media-logo"></a>
+        <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="image/instagramlogo.png" alt="facebook" class="social-media-logo"></a>
+        <a href="https://www.whatsapp.com/?lang=fr" target="_blank"><img src="image/whattsaplogo.png" alt="facebook" class="social-media-logo"></a>
+        <a href="https://www.whatsapp.com/?lang=fr" target="_blank"><img src="image/twitterlogo.png" alt="facebook" class="social-media-logo"></a>
       </div>
     </div>
     <div class="card card-footer">
@@ -46,7 +50,7 @@
     </div>
   </div>
 
-</div>s
+</div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
