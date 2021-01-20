@@ -76,7 +76,7 @@ include('header.php');
 <!--end hiking the mountains-->
 <!--explore-->
   <div class="explore">
-    <img src="image/img11" alt="image11">
+    <img src="image/.jpg" alt="image11">
   </div>
 <!--end explore-->
 <!--part-five-->
